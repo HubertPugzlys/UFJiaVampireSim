@@ -3,6 +3,7 @@
 #------------------------------------------
 create:periodic-boundaries-x
 create:periodic-boundaries-y
+create:periodic-boundaries-z
 #------------------------------------------
 # System dimensions:
 #----------------------------------
@@ -25,7 +26,7 @@ sim:time-steps-increment = 1
 sim:time-step=1e-16
 
 sim:minimum-temperature=0
-sim:maximum-temperature=200.0
+sim:maximum-temperature=30.0
 sim:applied-field-strength=5
 sim:cooling-time=100!ps
 sim:cooling-function = gaussian 
